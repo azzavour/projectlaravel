@@ -40,24 +40,5 @@ class SmartphoneSeeder extends Seeder
             'rating' => 4.7,
             'is_booked' => false,
         ]);
-
-         Smartphone::create([
-            'name' => 'Xiaomi 14',
-            'brand' => 'Xiaomi',
-            'image_url' => 'https://placehold.co/600x400/f48c06/FFFFFF?text=Xiaomi+14',
-            'description' => 'Performa kencang dengan Snapdragon 8 Gen 3 dan kolaborasi kamera legendaris bersama Leica.',
-            'rating' => 4.6,
-            'is_booked' => false,
-        ]);
-
-         Smartphone::create([
-            'name' => 'OnePlus 12',
-            'brand' => 'OnePlus',
-            'image_url' => 'https://placehold.co/600x400/e63946/FFFFFF?text=OnePlus+12',
-            'description' => 'Pengalaman flagship yang mulus dengan layar superior dan pengisian daya super cepat.',
-            'rating' => 4.7,
-            'is_booked' => false,
-        ]);
     }
 }
-
